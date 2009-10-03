@@ -27,10 +27,16 @@ namespace LightweightDebuggerDemo
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             var engine = Python.CreateEngine();
+            DebugWindow.InitDebugWindow(engine);
 
             var s = engine.CreateScope();
             s.SetVariable("items", lbThings.Items);
             engine.ExecuteFile("getthings.py", s);
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            DebugWindow.Shutdown();
         }
     }
 }
