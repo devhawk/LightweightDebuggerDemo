@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+  <status>
+    <created_at>Fri Oct 02 18:18:18 +0000 2009</created_at>
+    <id>4559517924</id>
+    <text>Looks like there's going to be an IronPython 2.6 RC2</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/448712539/Caps_Weagle_Circle_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>618</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>294</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3755</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 18:14:07 +0000 2009</created_at>
+    <id>4559419269</id>
+    <text>I think the biggest annoyance with LCA is how often we have to go back and review things that have already been done with new lawyers.</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/448712539/Caps_Weagle_Circle_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>618</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>294</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3754</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 18:03:50 +0000 2009</created_at>
+    <id>4559179442</id>
+    <text>Ugh, two seperate meetings with LCA today.</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/448712539/Caps_Weagle_Circle_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>618</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>294</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3753</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 17:37:16 +0000 2009</created_at>
+    <id>4558540175</id>
+    <text>Web Platform Installer is pretty cool, but why does it show me the option to install VS Web Express when I already have VS Pro instaleld?</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/448712539/Caps_Weagle_Circle_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>618</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>295</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3752</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 16:53:14 +0000 2009</created_at>
+    <id>4557307677</id>
+    <text>It' amazing how many things need GM approval when you're an Open Source project at Microsoft...</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/448712539/Caps_Weagle_Circle_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>617</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>295</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3751</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <!--<status>
+    <created_at>Fri Oct 02 15:03:09 +0000 2009</created_at>
+    <id>4554448892</id>
+    <text>@ironshay Question, what were all the laundry slides at the start of your PPT at http://bit.ly/BudtB presentation?</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id>22495490</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>ironshay</in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/448712539/Caps_Weagle_Circle_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>617</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>295</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3750</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 14:57:17 +0000 2009</created_at>
+    <id>4554306538</id>
+    <text>@daftspaniel Powershell and IronPython both have place in your toolbox. IMO, PS is better cmd shell but IPy is better gen purpose prog lang</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>4548409084</in_reply_to_status_id>
+    <in_reply_to_user_id>781113</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>daftspaniel</in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/448712539/Caps_Weagle_Circle_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>616</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>295</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3749</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 14:45:58 +0000 2009</created_at>
+    <id>4554044769</id>
+    <text>#followfriday #caps @RockTheRed @CapitalsInsider @OnFrozenBlog @fireton @geosteph @Capitalskremlin @JapersRink @ThePeerless @hersheybears</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>289</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3748</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 05:28:47 +0000 2009</created_at>
+    <id>4546202536</id>
+    <text>Seven. Unanswered. Goals. We won 7-2. on the other hand, I didn't play well. but it was my first real game since mid May #techrec</text>
+    <source>&lt;a href=&quot;http://www.trinketsoftware.com/Twikini&quot; rel=&quot;nofollow&quot;&gt;Twikini&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>286</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3747</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 03:57:34 +0000 2009</created_at>
+    <id>4544672025</id>
+    <text>@mattpodwysocki I thought it was more the B's goal than beingup 4-0. some sloppy play after but the B's goal itself seemed pretty flukey.</text>
+    <source>&lt;a href=&quot;http://www.trinketsoftware.com/Twikini&quot; rel=&quot;nofollow&quot;&gt;Twikini&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>4543468271</in_reply_to_status_id>
+    <in_reply_to_user_id>12699642</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>mattpodwysocki</in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>616</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>286</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3746</statuses_count>
+      <notifications></notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following></following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 02:57:01 +0000 2009</created_at>
+    <id>4543295379</id>
+    <text>Last year's PDC Oslo swag == this year's hockey gear undershit</text>
+    <source>&lt;a href=&quot;http://www.trinketsoftware.com/Twikini&quot; rel=&quot;nofollow&quot;&gt;Twikini&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>285</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3745</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 02:54:14 +0000 2009</created_at>
+    <id>4543223930</id>
+    <text>@mattpodwysocki I only saw the 3rd. thery looked good except a few minutes after B's goal. didn't matter, but penalty on Ovi at end was BS</text>
+    <source>&lt;a href=&quot;http://www.trinketsoftware.com/Twikini&quot; rel=&quot;nofollow&quot;&gt;Twikini&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>4540210778</in_reply_to_status_id>
+    <in_reply_to_user_id>12699642</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>mattpodwysocki</in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>285</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3744</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Fri Oct 02 00:18:01 +0000 2009</created_at>
+    <id>4539114115</id>
+    <text>#WashCaps season has begun. TechRec season starts today too. I've only played once since May so I will suck worse than usual tonite.</text>
+    <source>&lt;a href=&quot;http://www.trinketsoftware.com/Twikini&quot; rel=&quot;nofollow&quot;&gt;Twikini&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>285</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3743</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Thu Oct 01 22:37:37 +0000 2009</created_at>
+    <id>4536754766</id>
+    <text>&quot;creativity now is as important in education as literacy, and we should treat it with the same status&quot; http://bit.ly/2O3YRU</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>285</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3742</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Thu Oct 01 22:19:12 +0000 2009</created_at>
+    <id>4536334974</id>
+    <text>RT @migueldeicaza: MSBuild comes to Mono: http://bit.ly/7nZRI // apparently it can build IronPython now</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>285</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3742</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>true</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Thu Oct 01 20:26:08 +0000 2009</created_at>
+    <id>4533851624</id>
+    <text>I'm reading @mattpodwysocki recent post on generic constraints in F#. I love explicit member constraints! http://bit.ly/XlPil</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>617</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>284</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>137</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3740</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Thu Oct 01 19:39:55 +0000 2009</created_at>
+    <id>4532799711</id>
+    <text>Rep Grayson (D-FL) is my new favorite member of congress. http://bit.ly/17eBpR</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>617</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>284</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>137</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3739</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Thu Oct 01 19:38:54 +0000 2009</created_at>
+    <id>4532777532</id>
+    <text>@Technovangelist They were a little disappointed but they'll forgive you if you come visit again soon. :)</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id>4532732671</in_reply_to_status_id>
+    <in_reply_to_user_id>2449901</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>Technovangelist</in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>617</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>284</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>137</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3738</statuses_count>
+      <notifications></notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following></following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Thu Oct 01 19:18:43 +0000 2009</created_at>
+    <id>4532324895</id>
+    <text>RT @jolson88: AWESOME! Introducing &quot;C9 Lectures&quot;. Starting with &quot;Functional Programming Fundamentals&quot; w/ Erik Meijer: http://bit.ly/3XIIzB</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>284</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>137</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3737</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>false</following>
+    </user>
+    <geo/>
+  </status>
+  <status>
+    <created_at>Thu Oct 01 19:13:37 +0000 2009</created_at>
+    <id>4532210653</id>
+    <text>@voidspace FYI, VB has supported keyword arguments from day one. C# adds similar functionallity in 4.0. Also, you misspelled &quot;initializr&quot;</text>
+    <source>&lt;a href=&quot;http://www.sobees.com/&quot; rel=&quot;nofollow&quot;&gt;sobees&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id>11486902</in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name>voidspace</in_reply_to_screen_name>
+    <user>
+      <id>14137542</id>
+      <name>DevHawk</name>
+      <screen_name>DevHawk</screen_name>
+      <location>7033 51st Ave NE 98270</location>
+      <description>Passion * Technology * Ruthless Competence</description>
+      <profile_image_url>http://a3.twimg.com/profile_images/335669713/3759350487_b186c6c97a_b_normal.jpg</profile_image_url>
+      <url>http://devhawk.net</url>
+      <protected>false</protected>
+      <followers_count>615</followers_count>
+      <profile_background_color>4e5f91</profile_background_color>
+      <profile_text_color>000000</profile_text_color>
+      <profile_link_color>017CBC</profile_link_color>
+      <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+      <friends_count>285</friends_count>
+      <created_at>Thu Mar 13 04:39:05 +0000 2008</created_at>
+      <favourites_count>136</favourites_count>
+      <utc_offset>-28800</utc_offset>
+      <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a3.twimg.com/profile_background_images/13019599/bg-main.jpg</profile_background_image_url>
+      <profile_background_tile>true</profile_background_tile>
+      <statuses_count>3742</statuses_count>
+      <notifications>false</notifications>
+      <geo_enabled>false</geo_enabled>
+      <verified>false</verified>
+      <following>true</following>
+    </user>
+    <geo/>
+  </status>-->
+</statuses>
