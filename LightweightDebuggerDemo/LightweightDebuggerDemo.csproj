@@ -35,31 +35,31 @@
   <ItemGroup>
     <Reference Include="IronPython, Version=2.6.10920.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\IronPython.dll</HintPath>
+      <HintPath>..\External\IronPython.dll</HintPath>
     </Reference>
     <Reference Include="IronPython.Modules, Version=2.6.10920.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\IronPython.Modules.dll</HintPath>
+      <HintPath>..\External\IronPython.Modules.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Dynamic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Dynamic.dll</HintPath>
+      <HintPath>..\External\Microsoft.Dynamic.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Scripting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.dll</HintPath>
+      <HintPath>..\External\Microsoft.Scripting.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Scripting.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.Core.dll</HintPath>
+      <HintPath>..\External\Microsoft.Scripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Scripting.Debugging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.Debugging.dll</HintPath>
+      <HintPath>..\External\Microsoft.Scripting.Debugging.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Scripting.ExtensionAttribute, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\IronPython 2.6\Microsoft.Scripting.ExtensionAttribute.dll</HintPath>
+      <HintPath>..\External\Microsoft.Scripting.ExtensionAttribute.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
