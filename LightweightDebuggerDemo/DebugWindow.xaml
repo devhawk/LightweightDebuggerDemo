@@ -9,7 +9,7 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal">
-            <Button >Step In</Button>
+            <Button Click="StepIn_Click" >Step In</Button>
             <Button >Step Out</Button>
             <Button >Step Over</Button>
             <TextBlock x:Name="dbgResult"/>
