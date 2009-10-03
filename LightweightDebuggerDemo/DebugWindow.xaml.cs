@@ -57,5 +57,26 @@ namespace LightweightDebuggerDemo
             //to shut down the dispatcher manually when we close the window
             this.Dispatcher.InvokeShutdown();
         }
+
+        private void OnTraceback2(TraceBackFrame frame, string result, object payload)
+        {
+        }
+
+        private TracebackDelegate OnTraceback(TraceBackFrame frame, string result, object payload)
+        {
+            var a = new Action<TraceBackFrame, string, object>(this.OnTraceback2);
+            this.Dispatcher.Invoke(a, frame, result, payload);
+            return null;
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            _engine.SetTrace(this.OnTraceback);
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            _engine.SetTrace(null);
+        }
     }
 }
