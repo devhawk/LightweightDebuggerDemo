@@ -25,6 +25,7 @@ namespace LightweightDebuggerDemo
     {
         static Thread _debugThread;
         static DebugWindow _debugWindow;
+        static ManualResetEvent _debugWindowReady = new ManualResetEvent(false);
 
         public static void InitDebugWindow(ScriptEngine engine)
         {
@@ -36,6 +37,8 @@ namespace LightweightDebuggerDemo
             });
             _debugThread.SetApartmentState(ApartmentState.STA);
             _debugThread.Start();
+
+            _debugWindowReady.WaitOne();
         }
 
         public static void Shutdown()
@@ -47,14 +50,16 @@ namespace LightweightDebuggerDemo
         ScriptEngine _engine;
         Paragraph _source;
         AutoResetEvent _dbgContinue = new AutoResetEvent(false);
-
+        Action<TraceBackFrame, string, object> _tracebackAction;
         TraceBackFrame _curFrame;
         FunctionCode _curCode;
         string _curResult;
         object _curPayload;
 
+
         private DebugWindow(ScriptEngine engine)
         {
+            _tracebackAction = new Action<TraceBackFrame, string, object>(this.OnTraceback);
             InitializeComponent();
             _engine = engine;
         }
@@ -143,11 +148,10 @@ namespace LightweightDebuggerDemo
                     break;
             }
         }
-
+        
         private TracebackDelegate OnTracebackReceived(TraceBackFrame frame, string result, object payload)
         {
-            var a = new Action<TraceBackFrame, string, object>(this.OnTraceback);
-            this.Dispatcher.Invoke(a, frame, result, payload);
+            this.Dispatcher.BeginInvoke(_tracebackAction, frame, result, payload);
             _dbgContinue.WaitOne();
             return null;
         }
@@ -159,6 +163,7 @@ namespace LightweightDebuggerDemo
             rtbSource.Document.PageWidth = 10000;
             
             _engine.SetTrace(this.OnTracebackReceived);
+            _debugWindowReady.Set();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
