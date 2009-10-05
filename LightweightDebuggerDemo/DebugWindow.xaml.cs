@@ -18,6 +18,12 @@ using IronPython.Runtime;
 
 namespace LightweightDebuggerDemo
 {
+    public static class DebugCommands
+    {
+        public static readonly RoutedUICommand StepIn   = new RoutedUICommand("Step In", "StepIn", typeof(DebugWindow));
+        public static readonly RoutedUICommand StepOut  = new RoutedUICommand("Step Out", "StepOut", typeof(DebugWindow));
+        public static readonly RoutedUICommand StepOver = new RoutedUICommand("Step Over", "StepOver", typeof(DebugWindow));
+    }
     /// <summary>
     /// Interaction logic for DebugWindow.xaml
     /// </summary>
@@ -27,7 +33,7 @@ namespace LightweightDebuggerDemo
         static DebugWindow _debugWindow;
         static ManualResetEvent _debugWindowReady = new ManualResetEvent(false);
 
-        public static RoutedUICommand StepInCommand = new RoutedUICommand();
+        
 
         public static void InitDebugWindow(ScriptEngine engine)
         {
@@ -64,14 +70,6 @@ namespace LightweightDebuggerDemo
         private DebugWindow(ScriptEngine engine)
         {
             InitializeComponent();
-
-            this.CommandBindings.Add(
-                new CommandBinding(StepInCommand, this.StepInExecuted));
-            mnuStepIn.Command = StepInCommand;
-
-            this.InputBindings.Add(
-                new InputBinding(StepInCommand,
-                    new KeyGesture(Key.S, ModifierKeys.Alt)));
 
             _tracebackAction = new Action<TraceBackFrame, string, object>(this.OnTraceback);
             _engine = engine;

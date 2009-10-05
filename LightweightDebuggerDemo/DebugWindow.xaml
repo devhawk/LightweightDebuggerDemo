@@ -1,7 +1,14 @@
 ﻿<Window x:Class="LightweightDebuggerDemo.DebugWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ldd="clr-namespace:LightweightDebuggerDemo"
     Title="DebugWindow" Height="300" Width="300" Closed="Window_Closed" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Window.CommandBindings>
+        <CommandBinding Command="ldd:DebugCommands.StepIn"  Executed="StepInExecuted"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Command="ldd:DebugCommands.StepIn" Key="S"/>
+    </Window.InputBindings>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25" />
@@ -10,9 +17,9 @@
 
         <Menu>
             <MenuItem Header="Step">
-                <MenuItem Header="Step In" x:Name="mnuStepIn"></MenuItem>
-                <MenuItem Header="Step Over"></MenuItem>
-                <MenuItem Header="Step Out"></MenuItem>
+                <MenuItem Command="ldd:DebugCommands.StepIn"></MenuItem>
+                <MenuItem Command="ldd:DebugCommands.StepOver"></MenuItem>
+                <MenuItem Command="ldd:DebugCommands.StepOut"></MenuItem>
             </MenuItem>
             
         </Menu>
