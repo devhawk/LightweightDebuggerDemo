@@ -27,6 +27,8 @@ namespace LightweightDebuggerDemo
         static DebugWindow _debugWindow;
         static ManualResetEvent _debugWindowReady = new ManualResetEvent(false);
 
+        public static RoutedUICommand StepInCommand = new RoutedUICommand();
+
         public static void InitDebugWindow(ScriptEngine engine)
         {
             _debugThread = new Thread(() =>
@@ -39,10 +41,12 @@ namespace LightweightDebuggerDemo
             _debugThread.Start();
 
             _debugWindowReady.WaitOne();
+            engine.SetTrace(_debugWindow.OnTracebackReceived);
         }
 
         public static void Shutdown()
         {
+            _debugWindow._engine.SetTrace(null);
             _debugWindow.Dispatcher.InvokeShutdown();
         }
 
@@ -59,8 +63,17 @@ namespace LightweightDebuggerDemo
 
         private DebugWindow(ScriptEngine engine)
         {
-            _tracebackAction = new Action<TraceBackFrame, string, object>(this.OnTraceback);
             InitializeComponent();
+
+            this.CommandBindings.Add(
+                new CommandBinding(StepInCommand, this.StepInExecuted));
+            mnuStepIn.Command = StepInCommand;
+
+            this.InputBindings.Add(
+                new InputBinding(StepInCommand,
+                    new KeyGesture(Key.S, ModifierKeys.Alt)));
+
+            _tracebackAction = new Action<TraceBackFrame, string, object>(this.OnTraceback);
             _engine = engine;
         }
 
@@ -74,7 +87,7 @@ namespace LightweightDebuggerDemo
         private void StepIn_Click(object sender, RoutedEventArgs e)
         {
             _dbgContinue.Set();
-            dbgResult.Text = "Running";
+            //dbgResult.Text = "Running";
 
             foreach (var i in _source.Inlines)
             {
@@ -95,19 +108,19 @@ namespace LightweightDebuggerDemo
 
         private void TracebackCall()
         {
-            dbgResult.Text = string.Format("Call {0}", _curCode.co_name);
+            //dbgResult.Text = string.Format("Call {0}", _curCode.co_name);
             HighlightLine((int)_curFrame.f_lineno, Brushes.LightGreen, Brushes.Black);
         }
 
         private void TracebackReturn()
         {
-            dbgResult.Text = string.Format("Return {0}", _curCode.co_name);
+            //dbgResult.Text = string.Format("Return {0}", _curCode.co_name);
             HighlightLine(_curCode.co_firstlineno, Brushes.LightPink, Brushes.Black);
         }
 
         private void TracebackLine()
         {
-            dbgResult.Text = string.Format("Line {0}", _curFrame.f_lineno);
+            //dbgResult.Text = string.Format("Line {0}", _curFrame.f_lineno);
             HighlightLine((int)_curFrame.f_lineno, Brushes.Yellow, Brushes.Black);
         }
 
@@ -148,11 +161,15 @@ namespace LightweightDebuggerDemo
                     break;
             }
         }
-        
+
+        bool breaktrace = true;
         private TracebackDelegate OnTracebackReceived(TraceBackFrame frame, string result, object payload)
         {
-            this.Dispatcher.BeginInvoke(_tracebackAction, frame, result, payload);
-            _dbgContinue.WaitOne();
+            if (breaktrace)
+            {
+                this.Dispatcher.BeginInvoke(_tracebackAction, frame, result, payload);
+                _dbgContinue.WaitOne();
+            }
             return null;
         }
 
@@ -162,13 +179,29 @@ namespace LightweightDebuggerDemo
             rtbSource.Document = new FlowDocument(_source);
             rtbSource.Document.PageWidth = 10000;
             
-            _engine.SetTrace(this.OnTracebackReceived);
             _debugWindowReady.Set();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            _engine.SetTrace(null);
+            breaktrace = false;
+            _dbgContinue.Set();
+        }
+
+        private void StepInCanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+
+        }
+
+        private void StepInExecuted(object sender, ExecutedRoutedEventArgs e)
+        {
+            foreach (var i in _source.Inlines)
+            {
+                i.Background = Brushes.Black;
+                i.Foreground = Brushes.White;
+            }
+
+            _dbgContinue.Set();
         }
 
     }

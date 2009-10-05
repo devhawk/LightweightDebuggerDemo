@@ -8,12 +8,14 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal">
-            <Button Click="StepIn_Click" >Step In</Button>
-            <Button >Step Out</Button>
-            <Button >Step Over</Button>
-            <TextBlock x:Name="dbgResult"/>
-        </StackPanel>
+        <Menu>
+            <MenuItem Header="Step">
+                <MenuItem Header="Step In" x:Name="mnuStepIn"></MenuItem>
+                <MenuItem Header="Step Over"></MenuItem>
+                <MenuItem Header="Step Out"></MenuItem>
+            </MenuItem>
+            
+        </Menu>
 
         <RichTextBox Grid.Row="1" Name="rtbSource" FontFamily="Consolas" FontSize="14" Background="Black" Foreground="White" IsReadOnly="True"></RichTextBox>
 
