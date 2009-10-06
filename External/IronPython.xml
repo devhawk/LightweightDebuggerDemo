@@ -3755,6 +3755,41 @@
             an extra field to the dictionary storage type.
             </summary>
         </member>
+        <member name="F:IronPython.Hosting.ErrorCodes.IncompleteStatement">
+            <summary>
+            The error involved an incomplete statement due to an unexpected EOF.
+            </summary>
+        </member>
+        <member name="F:IronPython.Hosting.ErrorCodes.IncompleteToken">
+            <summary>
+            The error involved an incomplete token.
+            </summary>
+        </member>
+        <member name="F:IronPython.Hosting.ErrorCodes.ErrorMask">
+            <summary>
+            The mask for the actual error values 
+            </summary>
+        </member>
+        <member name="F:IronPython.Hosting.ErrorCodes.SyntaxError">
+            <summary>
+            The error was a general syntax error
+            </summary>
+        </member>
+        <member name="F:IronPython.Hosting.ErrorCodes.IndentationError">
+            <summary>
+            The error was an indentation error.
+            </summary>
+        </member>
+        <member name="F:IronPython.Hosting.ErrorCodes.TabError">
+            <summary>
+            The error was a tab error.
+            </summary>
+        </member>
+        <member name="F:IronPython.Hosting.ErrorCodes.NoCaret">
+            <summary>
+            syntax error shouldn't include a caret (no column offset should be included)
+            </summary>
+        </member>
         <member name="T:IronPython.Runtime.Exceptions.GeneratorExitException">
             <summary>
             GeneratorExitException is a standard exception raised by Generator.Close() to allow a caller
