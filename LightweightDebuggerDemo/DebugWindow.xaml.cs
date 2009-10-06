@@ -99,6 +99,15 @@ namespace LightweightDebuggerDemo
             var curline = _source.Inlines.ElementAtOrDefault(linenum - 1);
             if (curline != null)
             {
+                var visible_start = rtbSource.GetPositionFromPoint(new Point(0,0), true);
+                var visible_end = rtbSource.GetPositionFromPoint(new Point(0, rtbSource.ActualHeight), true);
+                if (visible_start.CompareTo(curline.ContentStart) > 0
+                    || visible_end.CompareTo(curline.ContentStart) < 0)
+                {
+                    var top = curline.ContentStart.GetCharacterRect(LogicalDirection.Forward).Top - 3;
+                    rtbSource.ScrollToVerticalOffset(top);
+                }
+
                 curline.Background = foreground;
                 curline.Foreground = background;
             }

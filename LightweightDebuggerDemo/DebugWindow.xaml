@@ -24,7 +24,7 @@
             
         </Menu>
 
-        <RichTextBox Grid.Row="1" Name="rtbSource" FontFamily="Consolas" FontSize="14" Background="Black" Foreground="White" IsReadOnly="True"></RichTextBox>
+        <RichTextBox Grid.Row="1" Name="rtbSource" FontFamily="Consolas" FontSize="14" Background="Black" Foreground="White" IsReadOnly="True" VerticalScrollBarVisibility="Auto"></RichTextBox>
 
     </Grid>
 </Window>
