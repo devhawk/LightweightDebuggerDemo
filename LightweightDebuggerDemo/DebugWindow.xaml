@@ -21,6 +21,7 @@
                 <MenuItem Command="ldd:DebugCommands.StepOver"></MenuItem>
                 <MenuItem Command="ldd:DebugCommands.StepOut"></MenuItem>
             </MenuItem>
+            <TextBlock x:Name="dbgStatus"></TextBlock>
             
         </Menu>
 

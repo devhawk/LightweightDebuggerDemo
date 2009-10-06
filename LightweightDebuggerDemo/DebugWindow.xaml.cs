@@ -33,8 +33,6 @@ namespace LightweightDebuggerDemo
         static DebugWindow _debugWindow;
         static ManualResetEvent _debugWindowReady = new ManualResetEvent(false);
 
-        
-
         public static void InitDebugWindow(ScriptEngine engine)
         {
             _debugThread = new Thread(() =>
@@ -55,7 +53,6 @@ namespace LightweightDebuggerDemo
             _debugWindow._engine.SetTrace(null);
             _debugWindow.Dispatcher.InvokeShutdown();
         }
-
 
         ScriptEngine _engine;
         Paragraph _source;
@@ -82,18 +79,6 @@ namespace LightweightDebuggerDemo
             this.Dispatcher.InvokeShutdown();
         }
 
-        private void StepIn_Click(object sender, RoutedEventArgs e)
-        {
-            _dbgContinue.Set();
-            //dbgResult.Text = "Running";
-
-            foreach (var i in _source.Inlines)
-            {
-                i.Background = Brushes.Black;
-                i.Foreground = Brushes.White;
-            }
-        }
-
         private void HighlightLine(int linenum, Brush foreground, Brush background)
         {
             var curline = _source.Inlines.ElementAtOrDefault(linenum - 1);
@@ -115,19 +100,19 @@ namespace LightweightDebuggerDemo
 
         private void TracebackCall()
         {
-            //dbgResult.Text = string.Format("Call {0}", _curCode.co_name);
+            dbgStatus.Text = string.Format("Call {0}", _curCode.co_name);
             HighlightLine((int)_curFrame.f_lineno, Brushes.LightGreen, Brushes.Black);
         }
 
         private void TracebackReturn()
         {
-            //dbgResult.Text = string.Format("Return {0}", _curCode.co_name);
+            dbgStatus.Text = string.Format("Return {0}", _curCode.co_name);
             HighlightLine(_curCode.co_firstlineno, Brushes.LightPink, Brushes.Black);
         }
 
         private void TracebackLine()
         {
-            //dbgResult.Text = string.Format("Line {0}", _curFrame.f_lineno);
+            dbgStatus.Text = string.Format("Line {0}", _curFrame.f_lineno);
             HighlightLine((int)_curFrame.f_lineno, Brushes.Yellow, Brushes.Black);
         }
 
@@ -177,7 +162,7 @@ namespace LightweightDebuggerDemo
                 this.Dispatcher.BeginInvoke(_tracebackAction, frame, result, payload);
                 _dbgContinue.WaitOne();
             }
-            return null;
+            return this.OnTracebackReceived;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -195,13 +180,10 @@ namespace LightweightDebuggerDemo
             _dbgContinue.Set();
         }
 
-        private void StepInCanExecute(object sender, CanExecuteRoutedEventArgs e)
-        {
-
-        }
-
         private void StepInExecuted(object sender, ExecutedRoutedEventArgs e)
         {
+            dbgStatus.Text = "Running";
+
             foreach (var i in _source.Inlines)
             {
                 i.Background = Brushes.Black;
