@@ -161,8 +161,10 @@ namespace LightweightDebuggerDemo
             {
                 this.Dispatcher.BeginInvoke(_tracebackAction, frame, result, payload);
                 _dbgContinue.WaitOne();
+                return _traceback;
             }
-            return this.OnTracebackReceived;
+            else
+                return null;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -180,7 +182,15 @@ namespace LightweightDebuggerDemo
             _dbgContinue.Set();
         }
 
+        TracebackDelegate _traceback;
+
         private void StepInExecuted(object sender, ExecutedRoutedEventArgs e)
+        {
+            _traceback = this.OnTracebackReceived;
+            ExecuteStep();
+        }
+
+        private void ExecuteStep()
         {
             dbgStatus.Text = "Running";
 
@@ -191,6 +201,12 @@ namespace LightweightDebuggerDemo
             }
 
             _dbgContinue.Set();
+        }
+
+        private void StepOutExecuted(object sender, ExecutedRoutedEventArgs e)
+        {
+            _traceback = null;
+            ExecuteStep();
         }
 
     }

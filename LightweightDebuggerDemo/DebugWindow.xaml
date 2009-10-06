@@ -5,9 +5,11 @@
     Title="DebugWindow" Height="300" Width="300" Closed="Window_Closed" Loaded="Window_Loaded" Closing="Window_Closing">
     <Window.CommandBindings>
         <CommandBinding Command="ldd:DebugCommands.StepIn"  Executed="StepInExecuted"/>
+        <CommandBinding Command="ldd:DebugCommands.StepOut"  Executed="StepOutExecuted"/>
     </Window.CommandBindings>
     <Window.InputBindings>
         <KeyBinding Command="ldd:DebugCommands.StepIn" Key="S"/>
+        <KeyBinding Command="ldd:DebugCommands.StepOut" Key="O"/>
     </Window.InputBindings>
     <Grid>
         <Grid.RowDefinitions>
@@ -17,9 +19,9 @@
 
         <Menu>
             <MenuItem Header="Step">
-                <MenuItem Command="ldd:DebugCommands.StepIn"></MenuItem>
+                <MenuItem Command="ldd:DebugCommands.StepIn" InputGestureText="S"></MenuItem>
                 <MenuItem Command="ldd:DebugCommands.StepOver"></MenuItem>
-                <MenuItem Command="ldd:DebugCommands.StepOut"></MenuItem>
+                <MenuItem Command="ldd:DebugCommands.StepOut" InputGestureText="O"></MenuItem>
             </MenuItem>
             <TextBlock x:Name="dbgStatus"></TextBlock>
             
